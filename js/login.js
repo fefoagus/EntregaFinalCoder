@@ -44,7 +44,7 @@ submit_button.onclick = (e) => {
           icon: 'success',
         });
         setTimeout(() => {
-          location.href = "index.html";
+          location.href = "../index.html";
         }, 3000);
       }
     } else {

@@ -120,7 +120,7 @@ function addProductToCart(title, price, productImg) {
     if (cartItemsNames[i].innerText == title) {
       Swal.fire({
         title: "YA LO TIENES!!!",
-        text: "Puedes modificar la cantidad en carrito!",
+        text: "Puedes modificar la cantidad en el carrito!",
         confirmButtonText: "Aceptar",
         customClass: {
           confirmButton: "pop-button",
@@ -252,6 +252,6 @@ cleanCart.addEventListener("click", () => {
     timer: 2500,
   }),
     setTimeout(function () {
-      window.location.href = "index.html";
+      window.location.href = "../index.html";
     }, 2000);
 });
