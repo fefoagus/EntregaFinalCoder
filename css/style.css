@@ -577,7 +577,7 @@ body{
     background-color: #f0f0f0;
     border: rgb(110, 110, 110) 2px solid;
     border-radius: 5px;
-    height: 80%;
+    height: auto;
   }
 
   #close-cart {
