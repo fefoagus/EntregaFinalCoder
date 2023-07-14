@@ -313,7 +313,7 @@ header {
 .product-box {
   position: relative;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
   display: none;
 }
